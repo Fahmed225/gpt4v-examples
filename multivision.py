@@ -1,5 +1,6 @@
 from openai import OpenAI
 import base64
+from typing import Union
 
 model = OpenAI()
 
@@ -8,7 +9,7 @@ def image_b64(image_path):
         return base64.b64encode(f.read()).decode()
 
 def look(
-    image_paths: list[str] | str,
+    image_paths: Union[list[str], str],
     prompt="Describe this image",
 ):
     if not isinstance(image_paths, list):
