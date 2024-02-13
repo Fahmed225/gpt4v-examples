@@ -13,28 +13,23 @@ const timeout = 8000;
 
     const page = await browser.newPage();
 
-    await page.setViewport( {
+    await page.setViewport({
         width: 1200,
         height: 1200,
         deviceScaleFactor: 1,
-    } );
+    });
 
-    setTimeout(async () => {
-        await page.screenshot( {
-            path: "screenshot.jpg",
-            fullPage: full_page,
-        } );
-    }, timeout-2000);
-
-    await page.goto( url, {
+    console.log("Navigating to URL:", url);
+    await page.goto(url, {
         waitUntil: "networkidle0",
         timeout: timeout,
-    } );
+    });
 
-    await page.screenshot( {
+    console.log("Taking screenshot after page load");
+    await page.screenshot({
         path: "screenshot.jpg",
         fullPage: full_page,
-    } );
+    });
 
     await browser.close();
 })();

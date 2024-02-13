@@ -7,39 +7,36 @@ import image_splitter
 import re
 import generateConvo
 import json
+import tldextract
 # Read the .csv file
-df = pd.read_csv('updated_file.csv')
-# df['Items Sold'] = ''
-# df['Items Data'] = ''
-# df['Generated Convo'] = ''
+df = pd.read_csv('/Users/fahadahmed/Documents/SourceCode/gpt4v-examples/apollo_export.csv')
+df['Items Sold'] = ''
+df['Items Data'] = ''
+df['Generated Convo'] = ''
 
-# # Iterate over the "Website" column
-# for index, row in df.iterrows():
-#     url = row['Website']
-#     # Extract the website name from the URL
-#     website_name = re.search('https?://([A-Za-z_0-9.-]+).*', url)
-#     if website_name:
-#         website_name = website_name.group(1).replace('www.', '')
-#     else:
-#         website_name = ''
-#     output_folder = website_name + "_splits"
-#     # # delete screenshot.jpg if it exists
-#     # if os.path.exists("screenshot.jpg"):
-#     #     os.remove("screenshot.jpg")
+# Iterate over the "Website" column
+for index, row in df.iterrows():
+    url = row['Website']
+    # Extract the website name from the URL
+    website_name = tldextract.extract(url).domain
+    output_folder = website_name + "_splits"
+    # # delete screenshot.jpg if it exists
+    # if os.path.exists("screenshot.jpg"):
+    #     os.remove("screenshot.jpg")
+    print("Taking screenshot of " + website_name + "..." + url)
+    shot = screenshot.take(url, full_page=True)
 
-#     shot = screenshot.take(url, full_page=True)
+    shots = image_splitter.split('/Users/fahadahmed/Documents/SourceCode/gpt4v-examples/screenshot.jpg', output_folder, 1366, offset=100)
 
-#     shots = image_splitter.split(shot, output_folder, 1366, offset=100)
+    print("Extracting supplements sold from " + website_name)
+    response = multivision.look(shots, 'Extract all the supplements sold from these website screenshots and return them in JSON format [{"name":"Item name here"}]. If no supplements are found, return an empty array.')
 
-#     print("Extracting supplements sold from " + website_name)
-#     response = multivision.look(shots, 'Extract all the supplements sold from these website screenshots and return them in JSON format [{"name":"Item name here"}]. If no supplements are found, return an empty array.')
+    print("Found " + response + " supplements sold on " + website_name)
+    # Store the response in the "Items Sold" column
+    df.at[index, 'Items Sold'] = str(response)
 
-#     print("Found " + response + " supplements sold on " + website_name)
-#     # Store the response in the "Items Sold" column
-#     df.at[index, 'Items Sold'] = str(response)
-
-# # Save the DataFrame to a new .csv file
-# df.to_csv('updated_file.csv', index=False)
+# Save the DataFrame to a new .csv file
+df.to_csv('updated_file.csv', index=False)
 
 # step 2: extract items in json format from "Items Sold" column
 for index, row in df.iterrows():

@@ -1,50 +1,38 @@
 First Name,Last Name,Title,Company,Company Name for Emails,Email,Email Status,Email Confidence,Seniority,Departments,Contact Owner,First Phone,Work Direct Phone,Home Phone,Mobile Phone,Corporate Phone,Other Phone,Stage,Lists,Last Contacted,Account Owner,# Employees,Industry,Keywords,Person Linkedin Url,Website,Items Sold,Generated Convo,Company Linkedin Url,Facebook Url,Twitter Url,City,State,Country,Company Address,Company City,Company State,Company Country,Company Phone,SEO Description,Technologies,Annual Revenue,Total Funding,Latest Funding,Latest Funding Amount,Last Raised At,Email Sent,Email Open,Email Bounced,Replied,Demoed,Number of Retail Locations,Apollo Contact Id,Apollo Account Id,Items Data
-Mike,Davis,National Sales Director,UST Corporation,UST,mdavis@ustcorp.net,Verified,,Director,Sales,samad@datstraanalytics.com,'+1 801-547-8052,,,,'+1 801-547-8052,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,41,"health, wellness & fitness","custom contract manufacturing of turnkey nutraceuticals vitamins, herbals & probiotics, capsules, tablets & powders",http://www.linkedin.com/in/mike-davis-a914238a,http://www.ustcorp.com,"```json
-[
-  {""name"": ""Kids Formula""},
-  {""name"": ""Sugar Free Kids Multi""},
-  {""name"": ""Organic Kids Formula""},
-  {""name"": ""Kids Formula and Fiber""}
-]
-```","```json
-[{""role"":""User"",""message"":""I'm looking for a good vitamin supplement for my kids. They're really picky eaters and I'm worried they're not getting all the nutrients they need. Any recommendations?""},{""role"":""AI"",""message"":""For picky eaters, I recommend the 'Organic Kids Formula'. It's designed to provide essential nutrients in a form that's appealing to kids. Plus, being organic, it ensures that your children are getting their vitamins and minerals from a natural source without any added chemicals or preservatives.""}]
-```",http://www.linkedin.com/company/ust-corp.,https://facebook.com/pages/Ust-Corporation/154824937888425?ref=br_rs,,Salt Lake City,Utah,United States,"855 McCormick Way, Layton, Utah, United States, 84041",Layton,Utah,United States,'+1 801-547-8052,,"Outlook, Amazon AWS, Gravity Forms, Apache, Google Tag Manager, reCAPTCHA, WordPress.org, Ubuntu, Mobile Friendly, Circle",56054000,,,,,,False,False,False,False,,65adc173295d010709a7a887,65adc173295d010709a7a889,
-Blake,Shaver,Director Sales Operations,Plexus Worldwide,Plexus Worldwide,blake.shaver@plexusworldwide.com,Verified,,Director,"Operations, Sales",samad@datstraanalytics.com,'+1 623-888-6506,,,,'+1 623-888-6506,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,10000,"health, wellness & fitness","healthcare, health & wellness, breast cancer, breast, weight loss, breast health, supplements, social marketing",http://www.linkedin.com/in/blakeshaver,http://www.plexusworldwide.com,"```json
-[
-  {""name"": ""Ultimate Weight Loss Combo""},
-  {""name"": ""Plexus Reset™ + TriPlex Combo""},
-  {""name"": ""Plexus MetaBurn™""},
-  {""name"": ""Plexus Lean™""}
-]
-```","```json
-[
-  {""role"":""User"",""message"":""I've been trying to lose weight and get healthier but nothing seems to work. Do you have any recommendations?""},
-  {""role"":""AI"",""message"":""Absolutely! I recommend trying the 'Plexus Reset™ + TriPlex Combo'. It's designed to help cleanse your body, balance your gut, and support healthy weight loss. Plus, many users have reported feeling more energetic and seeing results within the first few weeks. It could be a great start to your weight loss journey.""}
-]
-```",http://www.linkedin.com/company/plexus-worldwide-inc-,https://facebook.com/OfficialPlexusWorldwide/,https://twitter.com/PlexusWorldwide,Gilbert,Arizona,United States,"9145 East Pima Center Parkway, Scottsdale, Arizona, United States, 85258",Scottsdale,Arizona,United States,'+1 623-888-6506,"Clean wellness products and supplements to support weight loss, nutrition, skincare, and more. Plexus Worldwide - Founded in gut health. Experts in microbiome.","Mailchimp Mandrill, Sendgrid, Outlook, Zendesk, ADP Workforce Now, Oracle Cloud, Media Temple SSL, Atlassian Cloud, Five9, Greenhouse.io, Emma, Bootstrap Framework, Braintree, Wistia, Mobile Friendly, Hotjar, Incapsula, Google Tag Manager, Nginx, Multilingual, Google AdWords Conversion, Paypal, Facebook Widget, Facebook Login (Connect), Facebook Custom Audiences, Google Font API, Listrak, New Relic, Stripe, Qualtrics, reCAPTCHA, Formstack",110000000,,,,,,False,False,False,False,,65adc18d295d010591a8147e,65adc18d295d010591a81480,
-Steve,Fink,Vice President of Marketing,PLT Health Solutions,PLT Health Solutions,steve@plthealth.com,Verified,,Vp,Marketing,samad@datstraanalytics.com,'+1 973-984-0900,,,,'+1 973-984-0900,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,81,"health, wellness & fitness","food & beverages, dietary supplements, sports nutrition, food beverages, plantbased proteins, omega 3s, food amp beverages, nutrition amp health, weight management, joint health, botanical extracts, clean label, glutenfree, beauty from within, nutrition health",http://www.linkedin.com/in/stevenrfink,http://www.plthealth.com,"The provided images appear to be screenshots of a website, possibly related to a company or organization involved in health and wellness, and they may include snapshots of various sections such as a homepage, product offerings, and information about the company's work with plants or ingredients. 
-
-The images that include text and graphics appear to be informative in nature, likely discussing company values, statistics, or descriptions of services or areas of expertise. Notably, one image features what looks like products such as a green smoothie bottle, presumably protein powder with a measuring scoop, pasta, a muffin, and some sort of seed or pill-like items. These could be associated with the types of supplements or health-related products the company sells or incorporates into their offerings. However, based on the images provided, I cannot extract specific names of supplements for a JSON response.
-
-The remaining images feature natural settings, such as individuals working with plants, which could imply a focus on botanicals or natural ingredient sourcing for the company's products.
-
-Unfortunately, without text clearly defining the products or supplements offered by this company, it's not possible to provide you with a JSON array of supplement names. Hence, the JSON response, as per your instruction, is an empty array:
-
-```
-[]
-```",No items found,http://www.linkedin.com/company/plthealth,http://www.facebook.com/plthealth,https://twitter.com/plthealth,New York,New York,United States,"119 Headquarters Plz, Morristown, New Jersey, United States, 07960",Morristown,New Jersey,United States,'+1 973-984-0900,"PLT Health Home. Scientifically backed, innovative ingredients for your product development needs.","Salesforce, Constant Contact, Mimecast, Microsoft Office 365, Google Cloud Hosting, Drupal, WordPress.org, Wistia, Nginx, Gravity Forms, Google Analytics, Google Tag Manager, Hubspot, Linkedin Marketing Solutions, Hotjar, Mobile Friendly, reCAPTCHA, Google Font API, Remote, AI",100250000,,,,,,False,False,False,False,,65a6020f9fd412031a08ec2c,65a6020f9fd412031a08ec2e,
-Celina,Min,Senior Director of Brand Strategy & Innovation,SmartyPants Vitamins,SmartyPants Vitamins,celina.min@smartypantscorp.com,Verified,,Director,"Engineering & Technical, Marketing, Operations",samad@datstraanalytics.com,'+1 888-751-2291,,,,'+1 888-751-2291,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,67,"health, wellness & fitness","e-commerce, health & wellness, nutrition, consumer internet, internet, information technology, supplements, multivitamins, vitamins & minerals, kids multivitamin",http://www.linkedin.com/in/celina-min-3263b02,http://www.smartypantsvitamins.com,"Here is the JSON format with the supplements extracted from the screenshots:
+Blake,Shaver,Director Sales Operations,Plexus Worldwide,Plexus Worldwide,blake.shaver@plexusworldwide.com,Verified,,Director,"Operations, Sales",samad@datstraanalytics.com,'+1 623-888-6506,,,,'+1 623-888-6506,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,10000,"health, wellness & fitness","healthcare, health & wellness, breast cancer, breast, weight loss, breast health, supplements, social marketing",http://www.linkedin.com/in/blakeshaver,http://www.plexusworldwide.com,"Based on the screenshots provided, here are the supplements I could identify:
 
 ```json
 [
-  {""name"":""Kids Formula""},
-  {""name"":""Sugar Free Kids Multi""},
-  {""name"":""Organic Kids Formula""},
-  {""name"":""Kids Formula and Fiber""}
+  {""name"": ""Plexus MetaBurn""},
+  {""name"": ""Ultimate Weight Loss Combo""},
+  {""name"": ""Plexus Reset + TriPlex Combo""}
+]
+```
+
+The products are listed under various sections such as ""Featured Products"" and ""Product Systems."" The JSON format lists only the items that are clearly identified as supplements.","```json
+[
+  {""role"":""User"",""message"":""I'm trying to kickstart my weight loss journey but I'm not sure which supplement might help me get started. Do you have any recommendations?""},
+  {""role"":""AI"",""message"":""For those starting on their weight loss journey, I highly recommend the 'Ultimate Weight Loss Combo'. It's designed to provide comprehensive support for weight management, energy levels, and overall wellness."", ""item"":""Ultimate Weight Loss Combo""}
+]
+```",http://www.linkedin.com/company/plexus-worldwide-inc-,https://facebook.com/OfficialPlexusWorldwide/,https://twitter.com/PlexusWorldwide,Gilbert,Arizona,United States,"9145 East Pima Center Parkway, Scottsdale, Arizona, United States, 85258",Scottsdale,Arizona,United States,'+1 623-888-6506,"Clean wellness products and supplements to support weight loss, nutrition, skincare, and more. Plexus Worldwide - Founded in gut health. Experts in microbiome.","Mailchimp Mandrill, Sendgrid, Outlook, Zendesk, ADP Workforce Now, Oracle Cloud, Media Temple SSL, Atlassian Cloud, Five9, Greenhouse.io, Emma, Bootstrap Framework, Braintree, Wistia, Mobile Friendly, Hotjar, Incapsula, Google Tag Manager, Nginx, Multilingual, Google AdWords Conversion, Paypal, Facebook Widget, Facebook Login (Connect), Facebook Custom Audiences, Google Font API, Listrak, New Relic, Stripe, Qualtrics, reCAPTCHA, Formstack",110000000,,,,,,False,False,False,False,,65adc18d295d010591a8147e,65adc18d295d010591a81480,
+Steve,Fink,Vice President of Marketing,PLT Health Solutions,PLT Health Solutions,steve@plthealth.com,Verified,,Vp,Marketing,samad@datstraanalytics.com,'+1 973-984-0900,,,,'+1 973-984-0900,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,81,"health, wellness & fitness","food & beverages, dietary supplements, sports nutrition, food beverages, plantbased proteins, omega 3s, food amp beverages, nutrition amp health, weight management, joint health, botanical extracts, clean label, glutenfree, beauty from within, nutrition health",http://www.linkedin.com/in/stevenrfink,http://www.plthealth.com,"The images provided appear to be screenshots from a website for a health solutions company, possibly indicating that they sell supplements. However, the screenshots do not list specific product names or supplements for sale. Instead, we see images of plants being tended to, food items that might be used as ingredients in supplements, and what appears to be a protein powder, but without any clear product names.
+
+Given the provided images, I cannot extract any specific supplement information to return in JSON format. Here is the JSON response for no supplements found:
+
+```json
+[]
+```",No items found,http://www.linkedin.com/company/plthealth,http://www.facebook.com/plthealth,https://twitter.com/plthealth,New York,New York,United States,"119 Headquarters Plz, Morristown, New Jersey, United States, 07960",Morristown,New Jersey,United States,'+1 973-984-0900,"PLT Health Home. Scientifically backed, innovative ingredients for your product development needs.","Salesforce, Constant Contact, Mimecast, Microsoft Office 365, Google Cloud Hosting, Drupal, WordPress.org, Wistia, Nginx, Gravity Forms, Google Analytics, Google Tag Manager, Hubspot, Linkedin Marketing Solutions, Hotjar, Mobile Friendly, reCAPTCHA, Google Font API, Remote, AI",100250000,,,,,,False,False,False,False,,65a6020f9fd412031a08ec2c,65a6020f9fd412031a08ec2e,
+Celina,Min,Senior Director of Brand Strategy & Innovation,SmartyPants Vitamins,SmartyPants Vitamins,celina.min@smartypantscorp.com,Verified,,Director,"Engineering & Technical, Marketing, Operations",samad@datstraanalytics.com,'+1 888-751-2291,,,,'+1 888-751-2291,,Cold,Supplement Company Leads,,samad@datstraanalytics.com,67,"health, wellness & fitness","e-commerce, health & wellness, nutrition, consumer internet, internet, information technology, supplements, multivitamins, vitamins & minerals, kids multivitamin",http://www.linkedin.com/in/celina-min-3263b02,http://www.smartypantsvitamins.com,"Based on the provided website screenshots, I can extract the following supplement products:
+```json
+[
+    {""name"": ""Kids Formula""},
+    {""name"": ""Sugar Free Kids Multi""},
+    {""name"": ""Organic Kids Formula""},
+    {""name"": ""Kids Formula and Fiber""}
 ]
 ```","```json
 [
-  {""role"":""User"",""message"":""I'm looking for a good vitamin supplement for my child. They're really picky and refuse to take anything that doesn't taste good. Do you have any recommendations?""},
-  {""role"":""AI"",""message"":""I recommend trying the 'Organic Kids Formula.' It's designed specifically for children, focusing on essential nutrients for their growth and development. Plus, it's made with natural flavors, making it more appealing to picky eaters. It's a great way to ensure your child gets the vitamins they need in a form they'll enjoy.""}
+    {""role"":""User"",""message"":""I'm looking for a healthy supplement for my kids that doesn't have any added sugar. Do you have any recommendations?""},
+    {""role"":""AI"",""message"":""Absolutely! For a healthy option without added sugar, I recommend the 'Sugar Free Kids Multi'. It's specifically formulated to provide essential nutrients without the added sugars, making it a great choice for your kids' daily supplement needs."",""item"":""Sugar Free Kids Multi""}
 ]
 ```",http://www.linkedin.com/company/smartypantsvitamins,https://www.facebook.com/SmartyPants/,http://www.twitter.com/smartyhealth,Santa Monica,California,United States,"4056 Del Rey Avenue, Marina del Rey, California, United States, 90292",Marina del Rey,California,United States,'+1 888-751-2291,"From the start, SmartyPants Vitamins has been about family, authenticity and a core commitment to our collective well-being.","Gmail, Google Apps, Outlook, Microsoft Office 365, Google Cloud Hosting, Shopify, Shopify Plus, FedEx, The Trade Desk, Segment.io, JustUno, Mobile Friendly, Google Analytics, Facebook Login (Connect), Bazaarvoice, Facebook Widget, Vimeo, Google Tag Manager, WordPress.org, BambooHR, Klaviyo, Google Font API, Facebook Custom Audiences, Shutterstock, Disqus, Google AdSense, Render",40000000,21499882.0,Other,,2019-04-01,,False,False,False,False,,65a600e49fd412031a08e8bb,65a600e49fd412031a08e8bd,

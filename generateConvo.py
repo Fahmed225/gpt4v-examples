@@ -14,7 +14,7 @@ def generateConvo(items):
 
     chain = prompt | llm | output_parser
 
-    return chain.invoke({"example": "```json\r\n[{\"role\":\"User\",\"message\":\"I've got back pain from driving all day. Is there anything you recommend that can ease my pain a bit?c\"},{\"role\":\"AI\",\"message\":response}]\r\n```", "input": " Items: " + str(items)})
+    return chain.invoke({"example": "```json\r\n[{\"role\":\"User\",\"message\":\"I've got back pain from driving all day. Is there anything you recommend that can ease my pain a bit?c\"},{\"role\":\"AI\",\"message\":\"response\",\"item\":\"Recommended Item\"}]\r\n```", "input": " Items: " + str(items)})
 
 
 

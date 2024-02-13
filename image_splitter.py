@@ -32,16 +32,18 @@ def split(input_image_path, output_folder, piece_height, offset=0):
         # Resize and resample the image
         img_resized = piece.resize((target_width, target_height), Image.Resampling.LANCZOS)
 
-
-        # Move the crop area down
-        upper += piece_height - offset
-        lower += piece_height - offset
-
         # Save the piece to the output folder with a unique name
-        piece_file = f"{output_folder}/piece_{len(pieces)}.jpg"
+        if len(pieces) == 0:
+            piece_file = f"{output_folder}/homepage.jpg"
+        else:
+            piece_file = f"{output_folder}/piece_{len(pieces)}.jpg"
         img_resized.save(piece_file)
 
         # Add piece filename to return value
         pieces.append(piece_file)
+
+        # Move the crop area down
+        upper += piece_height - offset
+        lower += piece_height - offset
 
     return pieces
